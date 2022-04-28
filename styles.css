@@ -1,0 +1,140 @@
+
+
+
+
+
+
+@font-face {
+    font-family: fontname;
+    src: url(Septacharge-jELZv.ttf)
+}
+
+@font-face {
+    font-family: fontname2;
+    src: url(Crimson-SemiboldItalic.otf)
+}
+
+#top-bar {
+    border-bottom: 3px solid white;
+}
+
+#profile {
+    border-radius: 50%;
+    width: 33vw;
+    border: 4px solid purple;
+}
+#pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    border-top: 3px solid purple;
+    border-bottom: 3px solid white;
+    padding-bottom: 20px
+}
+#icons {
+    justify-content: space-between;
+    padding-top: 35px;
+
+}
+
+.card {
+    background-color: rgb(83, 15, 83);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#bio {
+    padding: 48px;
+    border-top: 3px solid purple;
+}
+
+#bio-contents {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+
+}
+
+#resume {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid white;
+    border-top: 3px solid purple;
+}
+
+#comment {
+    font-size:x-large
+}
+
+@media (max-width: 768px) {
+    #foot {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #foot :nth-child(1) {
+        order: 1;
+    }
+
+    #foot :nth-child(2) {
+        order: 2;
+    }
+}
+
+
+
+#foot {
+    padding-top: 35px;
+}
+
+.nav-item {
+    padding-right: 20px
+}
+
+html {
+    width: 100vw
+}
+
+p {
+    font-family: fontname2;
+    color: purple    
+}
+
+
+#grant {
+    color: white
+}
+
+#profile-div {
+    flex-direction: column;
+}
+
+#initials {
+    border-top: 3px solid purple;
+    border-bottom: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width: 100vw;
+}
+
+i {
+    font-size: 2rem;
+}
+
+#contacts {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px
+}
+
+#message {
+    display: flex;
+    justify-content: center;
+}
+
+/* #name {
+    /* text-shadow: 1px 1px white; */
+/* } */
